@@ -11,7 +11,7 @@
 
         <!-- Infomation Text -->
         <div class="col-12 col-lg-6 mt-3 mt-lg-0 text-sm-center text-lg-start">
-          <h1 class="fs-3">{{ item.title }}</h1>
+          <h1 class="fs-3 mt-2 mt-lg-0">{{ item.title }}</h1>
           <p>{{ item.description }}</p>
           <span v-for="tech in item.techStacks" :key="tech" class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">{{ tech }}</span>
 

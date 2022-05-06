@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light mt-2">
     <div class="container-fluid">
-      <router-link to="/"><a class="navbar-brand" href="#">fnurrahmah</a></router-link>
+      <a class="navbar-brand" href="#">fnurrahmah</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,6 +22,7 @@
 <script>
 export default {
   name: "NavbarComp",
+  methods: {},
 };
 </script>
 
@@ -36,6 +37,12 @@ a {
 a:hover {
   color: #ff90e8;
 }
+.active a {
+  color: #ff90e8;
+}
+.exact-active-link a {
+  color: #ff90e8;
+}
 .navbar .container-fluid {
   border: none;
 }
@@ -48,6 +55,10 @@ a:hover {
 .nav-item:nth-child(2) {
   padding-right: 0;
   margin-bottom: 16px;
+}
+.nav-item router-link-active,
+.nav-item router-link-exact-active {
+  color: #ff90e8;
 }
 
 @media (min-width: 768px) {

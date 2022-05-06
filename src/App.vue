@@ -16,9 +16,21 @@ export default {
 }
 
 #app {
-  padding: 64px;
   font-family: "Montserrat", sans-serif;
   color: #000;
+  padding: 16px;
   background-color: #f4f4f0;
+}
+
+@media (min-width: 576px) {
+  #app {
+    padding: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  #app {
+    padding: 64px;
+  }
 }
 </style>

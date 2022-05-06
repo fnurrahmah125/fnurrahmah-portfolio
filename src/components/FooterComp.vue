@@ -3,10 +3,10 @@
     <footer>
       <ul class="list-unstyled d-flex justify-content-center">
         <li>
-          <a href=""><i class="bi bi-github fs-5"></i></a>
+          <a href="https://github.com/fnurrahmah125"><i class="bi bi-github fs-5"></i></a>
         </li>
         <li>
-          <a href=""><i class="bi bi-whatsapp fs-5"></i></a>
+          <a href="https://wa.me/6285864042799"><i class="bi bi-whatsapp fs-5"></i></a>
         </li>
       </ul>
 

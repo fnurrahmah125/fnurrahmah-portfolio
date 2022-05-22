@@ -2,27 +2,133 @@
   <div class="container-fluid">
     <NavbarComp />
     <main>
-      <!-- Row -->
-      <div class="row pb-5 mb-5" v-for="item in items" :key="item">
+      <!-- Row 1-->
+      <div class="row pb-5 mb-5">
         <!-- Image -->
         <div class="col-12 col-lg-4 text-center">
-          <img :src="item.image" />
+          <img src="../assets/Frame-0.jpg" />
         </div>
 
         <!-- Infomation Text -->
-        <div class="col-12 col-lg-6 mt-3 mt-lg-0 text-sm-center text-lg-start">
-          <h1 class="fs-3 mt-2 mt-lg-0">{{ item.title }}</h1>
-          <p>{{ item.description }}</p>
-          <span v-for="tech in item.techStacks" :key="tech" class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">{{ tech }}</span>
+        <div class="col-12 col-lg-8 mt-3 mt-lg-0 pe-lg-3 text-sm-center text-lg-start">
+          <h1 class="fs-3 mt-2 mt-lg-0">Work.ly Landing Page</h1>
+          <p>
+            Work.ly adalah platform untuk meningkatkan dan mengelola suatu bisnis. Design landing page Work.ly saya dapatkan dari website BuildWith Angga. Design tersebut bebas untuk digunakan siapa saja, oleh karena itu saya menggunakan
+            design ini untuk diubah menjadi kode. Design landing page bisa dilihat <a href="https://www.figma.com/file/ilFYM1iRiOFVlTowpqP0tb/Work.ly-start-up">di sini <i class="bi bi-box-arrow-up-right"></i></a>. Landing page ini terdiri
+            dari navigation, hero, services, portfolio, testimonial, subscription box dan footer.
+          </p>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">CSS</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">Javascript</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">Bootstrap</span>
 
           <!-- Buttons -->
           <div class="d-flex gap-3 mt-4 justify-content-sm-center justify-content-lg-start">
             <div class="btn-preview">
-              <a :href="item.demoUrl" target="_blank" class="btn btn-front">View Demo</a>
+              <a href="https://workly-landing-page.netlify.app/" target="_blank" class="btn btn-front">View Demo</a>
               <a href="" class="btn btn-back">View Demo</a>
             </div>
             <div class="btn-preview">
-              <a :href="item.gitUrl" target="_blank" class="btn btn-front">View Github</a>
+              <a href="https://github.com/fnurrahmah125/workly" target="_blank" class="btn btn-front">View Github</a>
+              <a href="" class="btn btn-back">View Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2-->
+      <div class="row pb-5 mb-5">
+        <!-- Image -->
+        <div class="col-12 col-lg-4 text-center">
+          <img src="../assets/Frame-1.jpg" />
+        </div>
+
+        <!-- Infomation Text -->
+        <div class="col-12 col-lg-8 mt-3 mt-lg-0 pe-lg-3 text-sm-center text-lg-start">
+          <h1 class="fs-3 mt-2 mt-lg-0">Sukses Selalu Landing Page</h1>
+          <p>
+            Sukses Selalu adalah platform untuk meningkatkan produktivitas. Design landing page ini saya buat di Figma setelah mengikuti tutorial dari website dwinawan.com. Hasil design bisa dilihat
+            <a href="https://www.figma.com/file/DfmragI70aZPUa3QDrLNw5/suksesselalu-from-Dwinawan-s-tutorial">di sini <i class="bi bi-box-arrow-up-right"></i></a>. Landing page ini terdiri dari navigation, hero, features, testimonial dan
+            footer.
+          </p>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">CSS</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">Javascript</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">Bootstrap</span>
+
+          <!-- Buttons -->
+          <div class="d-flex gap-3 mt-4 justify-content-sm-center justify-content-lg-start">
+            <div class="btn-preview">
+              <a href="https://suksesselalu-landing-page.netlify.app/" target="_blank" class="btn btn-front">View Demo</a>
+              <a href="" class="btn btn-back">View Demo</a>
+            </div>
+            <div class="btn-preview">
+              <a href="https://github.com/fnurrahmah125/suksesselalu" target="_blank" class="btn btn-front">View Github</a>
+              <a href="" class="btn btn-back">View Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3-->
+      <div class="row pb-5 mb-5">
+        <!-- Image -->
+        <div class="col-12 col-lg-4 text-center">
+          <img src="../assets/Frame-2.jpg" />
+        </div>
+
+        <!-- Infomation Text -->
+        <div class="col-12 col-lg-8 mt-3 mt-lg-0 pe-lg-3 text-sm-center text-lg-start">
+          <h1 class="fs-3 mt-2 mt-lg-0">Simple Quiz App</h1>
+          <p>
+            Aplikasi kuis sederhana ini dibuat menggunakan Vue JS. Kuis ini terdiri dari 10 soal dan setiap jawaban benar akan mendapat 10 poin. Setelah selesai mengerjakan semua soal, pemain akan diminta unntuk memasukkan nama. Daftar nama
+            dan score pemain bisa dilihat di halaman High Scores.
+          </p>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">CSS</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">Javascript</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">Vue JS</span>
+
+          <!-- Buttons -->
+          <div class="d-flex gap-3 mt-4 justify-content-sm-center justify-content-lg-start">
+            <div class="btn-preview">
+              <a href="https://fnurrahmah-simple-quiz-app.netlify.app/" target="_blank" class="btn btn-front">View Demo</a>
+              <a href="" class="btn btn-back">View Demo</a>
+            </div>
+            <div class="btn-preview">
+              <a href="https://github.com/fnurrahmah125/quiz-app" target="_blank" class="btn btn-front">View Github</a>
+              <a href="" class="btn btn-back">View Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 4-->
+      <div class="row pb-5">
+        <!-- Image -->
+        <div class="col-12 col-lg-4 text-center">
+          <img src="../assets/Frame-3.jpg" />
+        </div>
+
+        <!-- Infomation Text -->
+        <div class="col-12 col-lg-8 mt-3 mt-lg-0 pe-lg-3 text-sm-center text-lg-start">
+          <h1 class="fs-3 mt-2 mt-lg-0">Simple Weather App</h1>
+          <p>
+            Aplikasi prakiraan cuaca ini menggunakan Vanilla Javascript dan memanfaatkan Open Weather API untuk mendapatkan prakiraan cuaca di kota-kota dunia. Setiap kota yang dicari akan ditampilkan dalam bentuk card. Card akan
+            menampilkan informasi suhu, kondisi cuaca, kelembaban, dan kecepatan angin di kota tersebut.
+          </p>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">CSS</span>
+          <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">Javascript</span>
+
+          <!-- Buttons -->
+          <div class="d-flex gap-3 mt-4 justify-content-sm-center justify-content-lg-start">
+            <div class="btn-preview">
+              <a href="https://fnurrahmah-simple-weather-app.netlify.app/" target="_blank" class="btn btn-front">View Demo</a>
+              <a href="" class="btn btn-back">View Demo</a>
+            </div>
+            <div class="btn-preview">
+              <a href="https://github.com/fnurrahmah125/weather-app" target="_blank" class="btn btn-front">View Github</a>
               <a href="" class="btn btn-back">View Github</a>
             </div>
           </div>
@@ -42,36 +148,6 @@ export default {
   components: {
     NavbarComp,
     FooterComp,
-  },
-  data: function () {
-    return {
-      items: [
-        {
-          title: "Work.ly Landing Page",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium doloremque quisquam repellat modi nam in. Quod nam nobis doloremque rem.",
-          image: "https://i.postimg.cc/fRs3Y5Vh/Frame-0.jpg",
-          techStacks: ["HTML", "CSS", "Javascript", "Bootstrap"],
-          demoUrl: "https://workly-landing-page.netlify.app/",
-          gitUrl: "https://github.com/fnurrahmah125/workly",
-        },
-        {
-          title: "Sukses Selalu Landing Page",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium doloremque quisquam repellat modi nam in. Quod nam nobis doloremque rem.",
-          image: "https://i.postimg.cc/Gmj4KYDT/Frame-1.jpg",
-          techStacks: ["HTML", "CSS", "Javascript", "Bootstrap"],
-          demoUrl: "https://suksesselalu-landing-page.netlify.app/",
-          gitUrl: "https://github.com/fnurrahmah125/suksesselalu",
-        },
-        {
-          title: "Simple Quiz App",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium doloremque quisquam repellat modi nam in. Quod nam nobis doloremque rem.",
-          image: "https://i.postimg.cc/GhG8B6hQ/Frame-2.jpg",
-          techStacks: ["HTML", "CSS", "Javascript", "Vue JS"],
-          demoUrl: "https://fnurrahmah-simple-quiz-app.netlify.app/",
-          gitUrl: "https://github.com/fnurrahmah125/quiz-app",
-        },
-      ],
-    };
   },
 };
 </script>
@@ -93,6 +169,10 @@ img {
 }
 a {
   text-decoration: none;
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
 }
 .btn-preview {
   position: relative;

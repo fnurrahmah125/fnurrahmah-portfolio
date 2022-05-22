@@ -11,7 +11,7 @@
             <router-link to="/"><a href="#">Projects</a></router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/resume"><a href="#">Resume</a></router-link>
+            <router-link to="/about"><a href="#">About</a></router-link>
           </li>
         </ul>
       </div>
@@ -39,9 +39,11 @@ a:hover {
 }
 .active a {
   color: #ff90e8;
+  font-weight: 500;
 }
 .exact-active-link a {
   color: #ff90e8;
+  font-weight: 500;
 }
 .navbar .container-fluid {
   border: none;

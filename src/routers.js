@@ -1,5 +1,5 @@
 import HomePage from "./views/HomePage.vue";
-import ResumePage from "./views/ResumePage.vue";
+import AboutPage from "./views/AboutPage.vue";
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
@@ -9,9 +9,9 @@ const routes = [
     component: HomePage,
   },
   {
-    path: "/resume",
-    name: "ResumePage",
-    component: ResumePage,
+    path: "/about",
+    name: "AboutPage",
+    component: AboutPage,
   },
 ];
 

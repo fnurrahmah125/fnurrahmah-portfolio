@@ -14,8 +14,8 @@
           <h1 class="fs-3 mt-2 mt-lg-0">Work.ly Landing Page</h1>
           <p>
             Work.ly adalah platform untuk meningkatkan dan mengelola suatu bisnis. Design landing page Work.ly saya dapatkan dari website BuildWith Angga. Design tersebut bebas untuk digunakan siapa saja, oleh karena itu saya menggunakan
-            design ini untuk diubah menjadi kode. Design landing page bisa dilihat <a href="https://www.figma.com/file/ilFYM1iRiOFVlTowpqP0tb/Work.ly-start-up">di sini <i class="bi bi-box-arrow-up-right"></i></a>. Landing page ini terdiri
-            dari navigation, hero, services, portfolio, testimonial, subscription box dan footer.
+            design ini untuk diubah menjadi kode. Design landing page bisa dilihat <a href="https://www.figma.com/file/ilFYM1iRiOFVlTowpqP0tb/Work.ly-start-up" target="_blank">di sini <i class="bi bi-box-arrow-up-right"></i></a>. Landing
+            page ini terdiri dari navigation, hero, services, portfolio, testimonial, subscription box dan footer.
           </p>
           <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
           <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">CSS</span>
@@ -47,9 +47,9 @@
         <div class="col-12 col-lg-8 mt-3 mt-lg-0 pe-lg-3 text-sm-center text-lg-start">
           <h1 class="fs-3 mt-2 mt-lg-0">Sukses Selalu Landing Page</h1>
           <p>
-            Sukses Selalu adalah platform untuk meningkatkan produktivitas. Design landing page ini saya buat di Figma setelah mengikuti tutorial dari website dwinawan.com. Hasil design bisa dilihat
-            <a href="https://www.figma.com/file/DfmragI70aZPUa3QDrLNw5/suksesselalu-from-Dwinawan-s-tutorial">di sini <i class="bi bi-box-arrow-up-right"></i></a>. Landing page ini terdiri dari navigation, hero, features, testimonial dan
-            footer.
+            Sukses Selalu adalah platform untuk meningkatkan produktivitas. Design landing page ini saya buat di Figma setelah mengikuti tutorial dari website <a href="https://www.dwinawan.com/" target="_blank">dwinawan.com</a>. Hasil
+            design bisa dilihat <a href="https://www.figma.com/file/DfmragI70aZPUa3QDrLNw5/suksesselalu-from-Dwinawan-s-tutorial" target="_blank">di sini <i class="bi bi-box-arrow-up-right"></i></a>. Landing page ini terdiri dari
+            navigation, hero, features, testimonial dan footer.
           </p>
           <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">HTML</span>
           <span class="badge border border-dark rounded-pill px-3 py-2 mt-2 me-2 text-dark">CSS</span>

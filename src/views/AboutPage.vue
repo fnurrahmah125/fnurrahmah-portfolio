@@ -33,7 +33,6 @@
     </div>
   </div>
   <FooterComp />
-  <!-- <link rel="icon" href="<%= BASE_URL %>CV_Fatrini_Nurrahmah.pdf" /> -->
 </template>
 
 <script>
